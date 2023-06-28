@@ -1,3 +1,5 @@
+
+import Cart from "./cartWidget"
 function Navbar(){
     return(
         
@@ -8,6 +10,7 @@ function Navbar(){
             <li><a href="#">productos</a></li>
             <li><a href="#">contacto</a></li>
         </ul>
+        <Cart></Cart>
     </nav>        
         
     )

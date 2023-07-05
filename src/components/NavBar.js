@@ -25,8 +25,9 @@ function Navbar(){
       </ul>
    
     </div>
+    <Cart/>
   </div>
-  <Cart></Cart>
+ 
 </nav>
         
     )

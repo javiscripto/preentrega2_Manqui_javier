@@ -1,4 +1,11 @@
+import { useState } from "react"
+
 function Cart(){
+  const [contador, setContador]= useState(0);
+
+
+
+
     return(
         <>
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">

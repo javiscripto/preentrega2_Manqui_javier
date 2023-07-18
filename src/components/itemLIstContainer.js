@@ -1,23 +1,25 @@
-import React from "react"
-import { useState, useEffect } from "react";
-import Productos from "../productos.json"
+import React, { useState, useEffect } from "react";
+import Productos from "../productos.json";
 import ItemList from "./itemList";
+import { useParams } from "react-router-dom";
 
+const ItemlistContainer = () => {
+  const { nombre } = useParams(); 
+  const [datos, setDatos] = useState([]);
+  const [filtro, setFiltro] = useState([]); 
+  useEffect(() => {
+    setDatos(Productos);
 
-const ItemlistContainer=()=>{
+    
+    const filtroProductos = datos.filter((prod) => prod.categoria === nombre);
 
-    let [datos, setdatos]=useState([]);
+    
+    setFiltro(filtroProductos);
+  }, [nombre]);
 
-    useEffect(()=>{
-       setdatos(Productos)
-    },[])
+  
 
+  return <ItemList productos={filtro} categoria={nombre} />;
+};
 
-    if(datos){
-        return(
-           <ItemList productos={datos} />
-        )
-    }
-
-}
-export default ItemlistContainer
+export default ItemlistContainer;

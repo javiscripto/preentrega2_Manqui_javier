@@ -5,7 +5,8 @@ import Navbar from "./components/NavBar";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemlistContainer from "./components/itemListContainer";
-import Categoria from "./components/pages/categorias";
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/home" element={ <p> home </p> } />
 
-          <Route path="/productos/:nombre" element= { <Categoria/>} /> 
+          <Route path="/productos/:nombre" element= { <ItemlistContainer/>} /> 
           
 
 

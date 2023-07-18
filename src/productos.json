@@ -5,7 +5,7 @@
       "imagen": "https://www.fender.cl/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/g/e/ge659_0379410515v1.jpg",
       "precio": 700000,
       "stock": 5,
-      "categoria":"cat-1"
+      "categoria":"Guitarras"
     },
     {
       "id": "guitarra-02",
@@ -13,7 +13,7 @@
       "imagen": "./img/guitarra02.jpg",
       "precio": 455000,
       "stock": 7,
-      "categoria":"cat-3"
+      "categoria":"Guitarras"
     },
     {
       "id": "guitarra-03",
@@ -21,7 +21,7 @@
       "imagen": "./img/guitarra03.jpg",
       "precio": 399000,
       "stock": 10,
-      "categoria":"cat-2"
+      "categoria":"Guitarras"
     },
     {
       "id": "guitarra-04",
@@ -29,7 +29,7 @@
       "imagen": "./img/guitarra04.jpg",
       "precio": 1189000,
       "stock": 5,
-      "categoria":"cat-1"
+      "categoria":"Guitarras"
     },
     {
       "id": "guitarra-05",
@@ -37,7 +37,7 @@
       "imagen": "./img/guitarra05.jpg",
       "precio": 743900,
       "stock": 10,
-      "categoria":"cat-2"
+      "categoria":"Guitarras"
     },
     {
       "id": "guitarra-06",
@@ -45,12 +45,12 @@
       "imagen": "./img/guitarra06.jpg",
       "precio": 945000,
       "stock": 4,
-      "categoria":"cat-2"
+      "categoria":"Guitarras"
     },
     {
         "id": "amplificador-1",
         "nombre":"lorem-ipsum",
-        "categoria":"cat-1"
+        "categoria":"Amplificadores"
         
     }
   ]

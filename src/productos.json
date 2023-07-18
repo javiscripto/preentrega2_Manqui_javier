@@ -1,0 +1,56 @@
+[
+    {
+      "id": "guitarra-01",
+      "nombre": "Squier Stratocaster® Gold Edition 40th Anniversary",
+      "imagen": "https://www.fender.cl/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/g/e/ge659_0379410515v1.jpg",
+      "precio": 700000,
+      "stock": 5,
+      "categoria":"cat-1"
+    },
+    {
+      "id": "guitarra-02",
+      "nombre": "Jackson JS Series Rhoads JS32",
+      "imagen": "./img/guitarra02.jpg",
+      "precio": 455000,
+      "stock": 7,
+      "categoria":"cat-3"
+    },
+    {
+      "id": "guitarra-03",
+      "nombre": "Jackson JS Series Dinky Arch Top JS32Q DKA",
+      "imagen": "./img/guitarra03.jpg",
+      "precio": 399000,
+      "stock": 10,
+      "categoria":"cat-2"
+    },
+    {
+      "id": "guitarra-04",
+      "nombre": "Solar Guitars A1.6AAN",
+      "imagen": "./img/guitarra04.jpg",
+      "precio": 1189000,
+      "stock": 5,
+      "categoria":"cat-1"
+    },
+    {
+      "id": "guitarra-05",
+      "nombre": "PRS Guitars SE Standard McCarty Singlecut 594 MT",
+      "imagen": "./img/guitarra05.jpg",
+      "precio": 743900,
+      "stock": 10,
+      "categoria":"cat-2"
+    },
+    {
+      "id": "guitarra-06",
+      "nombre": "Legator G6P-BLK Ghost P series",
+      "imagen": "./img/guitarra06.jpg",
+      "precio": 945000,
+      "stock": 4,
+      "categoria":"cat-2"
+    },
+    {
+        "id": "amplificador-1",
+        "nombre":"lorem-ipsum",
+        "categoria":"cat-1"
+        
+    }
+  ]

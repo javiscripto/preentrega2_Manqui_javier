@@ -1,9 +1,23 @@
+import React from "react"
+import { useState, useEffect } from "react";
+import Productos from "../productos.json"
+import ItemList from "./itemList";
 
-function ItemList(){
-    return(
-        <>
-        <p>soy un item</p>
-        </>
-    )
+
+const ItemlistContainer=()=>{
+
+    let [datos, setdatos]=useState([]);
+
+    useEffect(()=>{
+       setdatos(Productos)
+    },[])
+
+
+    if(datos){
+        return(
+           <ItemList productos={datos} />
+        )
+    }
+
 }
-export default ItemList
+export default ItemlistContainer

@@ -5,13 +5,13 @@ function Navbar(){
     return(     
     
     
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <NavLink class="navbar-brand" to="/home">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <NavLink className="navbar-brand" to="/home">
           GuitarraStore
         </NavLink>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -19,22 +19,22 @@ function Navbar(){
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <NavLink class="nav-link active" aria-current="page" to="/home">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <NavLink className="nav-link active" aria-current="page" to="/home">
                 inicio
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink class="nav-link" to="/productos/Guitarras">
                 guitarras
               </NavLink>
             </li>
-            <li class="nav-item">
-              <NavLink class="nav-link" to="/productos/Amplificadores">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/productos/Amplificadores">
                 amplificadores
               </NavLink>
             </li>
